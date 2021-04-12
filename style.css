@@ -1,0 +1,44 @@
+body {
+    background-color: gray;
+    width: 100%;
+}
+
+#chart {
+    background-color: gray;
+    width: 1000px;
+    height: 500px;
+    margin: 50px auto;
+    border: solid 1px #000;
+}
+
+svg {
+    background-color: white;
+}
+
+.dot {
+    stroke: #000;
+    stroke-width: 1px;
+}
+
+.axis path,
+.axis line {
+    stroke: rgb(149, 147, 147);
+}
+
+.axis text {
+    fill: rgb(144, 144, 144);
+}
+
+#tooltip {
+    position: absolute;
+    background-color: white;
+    padding: 20px;
+    border: solid 2px #000;
+    opacity: 0;
+}
+
+text.axisLabel {
+    fill: #bbb;
+    /* font: sans-serif; */
+    font-size: 10px;
+}
